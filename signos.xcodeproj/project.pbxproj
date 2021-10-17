@@ -3,18 +3,39 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		F96E9AEA271B24100048E3CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96E9AE9271B24100048E3CB /* AppDelegate.swift */; };
 		F96E9AEC271B24100048E3CB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96E9AEB271B24100048E3CB /* SceneDelegate.swift */; };
-		F96E9AEE271B24100048E3CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96E9AED271B24100048E3CB /* ViewController.swift */; };
 		F96E9AF1271B24100048E3CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F96E9AEF271B24100048E3CB /* Main.storyboard */; };
 		F96E9AF3271B24100048E3CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F96E9AF2271B24100048E3CB /* Assets.xcassets */; };
 		F96E9AF6271B24100048E3CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F96E9AF4271B24100048E3CB /* LaunchScreen.storyboard */; };
 		F96E9B01271B24110048E3CB /* signosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96E9B00271B24110048E3CB /* signosTests.swift */; };
 		F96E9B0C271B24110048E3CB /* signosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96E9B0B271B24110048E3CB /* signosUITests.swift */; };
+		F9CE7F0C271B2B9100054FC5 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CE7F0B271B2B9100054FC5 /* NetworkManager.swift */; };
+		F9CE7F14271B2BAB00054FC5 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CE7F13271B2BAB00054FC5 /* DatabaseManager.swift */; };
+		F9CE7F1A271B2D9900054FC5 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CE7F19271B2D9900054FC5 /* Address.swift */; };
+		F9CE7F23271B320300054FC5 /* GoogleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CE7F22271B320300054FC5 /* GoogleService.swift */; };
+		F9CE7F2C271B4EC800054FC5 /* NetworkLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CE7F2B271B4EC800054FC5 /* NetworkLayer.swift */; };
+		F9CE7F34271B4F2F00054FC5 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CE7F33271B4F2F00054FC5 /* Router.swift */; };
+		F9CE7F39271B500500054FC5 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CE7F38271B500500054FC5 /* Reachability.swift */; };
+		F9CE7F46271B616A00054FC5 /* AddressesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CE7F45271B616A00054FC5 /* AddressesViewController.swift */; };
+		F9CE7F4F271B631D00054FC5 /* GenericDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CE7F4E271B631D00054FC5 /* GenericDataSource.swift */; };
+		F9CE7F57271B633800054FC5 /* DynamicValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CE7F56271B633800054FC5 /* DynamicValue.swift */; };
+		F9CE7F5D271B637C00054FC5 /* AddressesDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CE7F5C271B637C00054FC5 /* AddressesDataSource.swift */; };
+		F9CE7F65271B643100054FC5 /* AddressesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CE7F64271B643100054FC5 /* AddressesViewModel.swift */; };
+		F9CE7F6A271B64BF00054FC5 /* AddressCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CE7F69271B64BF00054FC5 /* AddressCell.swift */; };
+		F9CE7F7B271B891700054FC5 /* UITableView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CE7F7A271B891700054FC5 /* UITableView+Extensions.swift */; };
+		F9CE7F85271C5E3A00054FC5 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CE7F84271C5E3A00054FC5 /* SearchViewController.swift */; };
+		F9CE7F8D271C5F5900054FC5 /* SearchDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CE7F8C271C5F5900054FC5 /* SearchDataSource.swift */; };
+		F9CE7F92271C5FA600054FC5 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CE7F91271C5FA600054FC5 /* SearchViewModel.swift */; };
+		F9CE7F98271C6BFA00054FC5 /* LocationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CE7F97271C6BFA00054FC5 /* LocationType.swift */; };
+		F9CE7FA3271CB27700054FC5 /* SearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CE7FA2271CB27700054FC5 /* SearchCell.swift */; };
+		F9CE7FA8271CD75300054FC5 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CE7FA7271CD75300054FC5 /* Photo.swift */; };
+		F9CE7FAD271CDD2200054FC5 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CE7FAC271CDD2200054FC5 /* ImageLoader.swift */; };
+		FA868837B2921B7BB3EA92E1 /* Pods_signos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC6CE9E13DE40F5FEE9615B2 /* Pods_signos.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +56,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		17D4D50EA30852921F84A344 /* Pods-signos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-signos.debug.xcconfig"; path = "Target Support Files/Pods-signos/Pods-signos.debug.xcconfig"; sourceTree = "<group>"; };
+		5671EFF3295FAAF67FE74510 /* Pods-signos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-signos.release.xcconfig"; path = "Target Support Files/Pods-signos/Pods-signos.release.xcconfig"; sourceTree = "<group>"; };
+		DC6CE9E13DE40F5FEE9615B2 /* Pods_signos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_signos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F96E9AE6271B24100048E3CB /* signos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = signos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F96E9AE9271B24100048E3CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F96E9AEB271B24100048E3CB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F96E9AED271B24100048E3CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F96E9AF0271B24100048E3CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F96E9AF2271B24100048E3CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F96E9AF5271B24100048E3CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +72,27 @@
 		F96E9B07271B24110048E3CB /* signosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = signosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F96E9B0B271B24110048E3CB /* signosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signosUITests.swift; sourceTree = "<group>"; };
 		F96E9B0D271B24110048E3CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9CE7F0B271B2B9100054FC5 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		F9CE7F13271B2BAB00054FC5 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		F9CE7F19271B2D9900054FC5 /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		F9CE7F22271B320300054FC5 /* GoogleService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleService.swift; sourceTree = "<group>"; };
+		F9CE7F2B271B4EC800054FC5 /* NetworkLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLayer.swift; sourceTree = "<group>"; };
+		F9CE7F33271B4F2F00054FC5 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		F9CE7F38271B500500054FC5 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		F9CE7F45271B616A00054FC5 /* AddressesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressesViewController.swift; sourceTree = "<group>"; };
+		F9CE7F4E271B631D00054FC5 /* GenericDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericDataSource.swift; sourceTree = "<group>"; };
+		F9CE7F56271B633800054FC5 /* DynamicValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicValue.swift; sourceTree = "<group>"; };
+		F9CE7F5C271B637C00054FC5 /* AddressesDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressesDataSource.swift; sourceTree = "<group>"; };
+		F9CE7F64271B643100054FC5 /* AddressesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressesViewModel.swift; sourceTree = "<group>"; };
+		F9CE7F69271B64BF00054FC5 /* AddressCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressCell.swift; sourceTree = "<group>"; };
+		F9CE7F7A271B891700054FC5 /* UITableView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extensions.swift"; sourceTree = "<group>"; };
+		F9CE7F84271C5E3A00054FC5 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		F9CE7F8C271C5F5900054FC5 /* SearchDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchDataSource.swift; sourceTree = "<group>"; };
+		F9CE7F91271C5FA600054FC5 /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
+		F9CE7F97271C6BFA00054FC5 /* LocationType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationType.swift; sourceTree = "<group>"; };
+		F9CE7FA2271CB27700054FC5 /* SearchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCell.swift; sourceTree = "<group>"; };
+		F9CE7FA7271CD75300054FC5 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		F9CE7FAC271CDD2200054FC5 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA868837B2921B7BB3EA92E1 /* Pods_signos.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +121,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D7475C9694197F07B92DCDD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				17D4D50EA30852921F84A344 /* Pods-signos.debug.xcconfig */,
+				5671EFF3295FAAF67FE74510 /* Pods-signos.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B65E3E912FF879C978EBEC25 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC6CE9E13DE40F5FEE9615B2 /* Pods_signos.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F96E9ADD271B24100048E3CB = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +145,8 @@
 				F96E9AFF271B24110048E3CB /* signosTests */,
 				F96E9B0A271B24110048E3CB /* signosUITests */,
 				F96E9AE7271B24100048E3CB /* Products */,
+				2D7475C9694197F07B92DCDD /* Pods */,
+				B65E3E912FF879C978EBEC25 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +163,10 @@
 		F96E9AE8271B24100048E3CB /* signos */ = {
 			isa = PBXGroup;
 			children = (
+				F9CE7F04271B29AC00054FC5 /* Source */,
+				F9CE7F3D271B60B600054FC5 /* Resources */,
 				F96E9AE9271B24100048E3CB /* AppDelegate.swift */,
 				F96E9AEB271B24100048E3CB /* SceneDelegate.swift */,
-				F96E9AED271B24100048E3CB /* ViewController.swift */,
-				F96E9AEF271B24100048E3CB /* Main.storyboard */,
-				F96E9AF2271B24100048E3CB /* Assets.xcassets */,
-				F96E9AF4271B24100048E3CB /* LaunchScreen.storyboard */,
-				F96E9AF7271B24100048E3CB /* Info.plist */,
 			);
 			path = signos;
 			sourceTree = "<group>";
@@ -128,6 +189,157 @@
 			path = signosUITests;
 			sourceTree = "<group>";
 		};
+		F9CE7F04271B29AC00054FC5 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				F9CE7F05271B29BA00054FC5 /* Common */,
+				F9CE7F18271B2D7B00054FC5 /* Models */,
+				F9CE7F44271B612F00054FC5 /* ViewModels */,
+				F9CE7F43271B612700054FC5 /* Views */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		F9CE7F05271B29BA00054FC5 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				F9CE7F96271C6BD800054FC5 /* Enums */,
+				F9CE7F79271B88F500054FC5 /* Extensions */,
+				F9CE7F4D271B630C00054FC5 /* Core */,
+				F9CE7F2A271B4EAA00054FC5 /* Networking */,
+				F9CE7F21271B31E800054FC5 /* Services */,
+				F9CE7F06271B29E000054FC5 /* Managers */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		F9CE7F06271B29E000054FC5 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				F9CE7F0B271B2B9100054FC5 /* NetworkManager.swift */,
+				F9CE7F13271B2BAB00054FC5 /* DatabaseManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		F9CE7F18271B2D7B00054FC5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F9CE7F19271B2D9900054FC5 /* Address.swift */,
+				F9CE7FA7271CD75300054FC5 /* Photo.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F9CE7F21271B31E800054FC5 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F9CE7F22271B320300054FC5 /* GoogleService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		F9CE7F2A271B4EAA00054FC5 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				F9CE7F2B271B4EC800054FC5 /* NetworkLayer.swift */,
+				F9CE7F33271B4F2F00054FC5 /* Router.swift */,
+				F9CE7F38271B500500054FC5 /* Reachability.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		F9CE7F3D271B60B600054FC5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F9CE7F3F271B60DA00054FC5 /* Storyboards */,
+				F9CE7F3E271B60CC00054FC5 /* Assets */,
+				F96E9AF7271B24100048E3CB /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F9CE7F3E271B60CC00054FC5 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				F96E9AF2271B24100048E3CB /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		F9CE7F3F271B60DA00054FC5 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				F96E9AEF271B24100048E3CB /* Main.storyboard */,
+				F96E9AF4271B24100048E3CB /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		F9CE7F43271B612700054FC5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F9CE7F83271C5E2800054FC5 /* Search */,
+				F9CE7F5B271B635D00054FC5 /* Addresses */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F9CE7F44271B612F00054FC5 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F9CE7F64271B643100054FC5 /* AddressesViewModel.swift */,
+				F9CE7F91271C5FA600054FC5 /* SearchViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F9CE7F4D271B630C00054FC5 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				F9CE7F4E271B631D00054FC5 /* GenericDataSource.swift */,
+				F9CE7F56271B633800054FC5 /* DynamicValue.swift */,
+				F9CE7FAC271CDD2200054FC5 /* ImageLoader.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		F9CE7F5B271B635D00054FC5 /* Addresses */ = {
+			isa = PBXGroup;
+			children = (
+				F9CE7F45271B616A00054FC5 /* AddressesViewController.swift */,
+				F9CE7F5C271B637C00054FC5 /* AddressesDataSource.swift */,
+				F9CE7F69271B64BF00054FC5 /* AddressCell.swift */,
+			);
+			path = Addresses;
+			sourceTree = "<group>";
+		};
+		F9CE7F79271B88F500054FC5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F9CE7F7A271B891700054FC5 /* UITableView+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F9CE7F83271C5E2800054FC5 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				F9CE7F84271C5E3A00054FC5 /* SearchViewController.swift */,
+				F9CE7F8C271C5F5900054FC5 /* SearchDataSource.swift */,
+				F9CE7FA2271CB27700054FC5 /* SearchCell.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		F9CE7F96271C6BD800054FC5 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				F9CE7F97271C6BFA00054FC5 /* LocationType.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +347,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F96E9B10271B24110048E3CB /* Build configuration list for PBXNativeTarget "signos" */;
 			buildPhases = (
+				251C55591A34FBEBFAADEBDD /* [CP] Check Pods Manifest.lock */,
 				F96E9AE2271B24100048E3CB /* Sources */,
 				F96E9AE3271B24100048E3CB /* Frameworks */,
 				F96E9AE4271B24100048E3CB /* Resources */,
+				359102527FE26C91F59499F4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,13 +467,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		251C55591A34FBEBFAADEBDD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-signos-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		359102527FE26C91F59499F4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-signos/Pods-signos-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-signos/Pods-signos-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-signos/Pods-signos-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F96E9AE2271B24100048E3CB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F96E9AEE271B24100048E3CB /* ViewController.swift in Sources */,
+				F9CE7F1A271B2D9900054FC5 /* Address.swift in Sources */,
+				F9CE7F6A271B64BF00054FC5 /* AddressCell.swift in Sources */,
+				F9CE7F0C271B2B9100054FC5 /* NetworkManager.swift in Sources */,
+				F9CE7F85271C5E3A00054FC5 /* SearchViewController.swift in Sources */,
+				F9CE7F92271C5FA600054FC5 /* SearchViewModel.swift in Sources */,
+				F9CE7F7B271B891700054FC5 /* UITableView+Extensions.swift in Sources */,
+				F9CE7F4F271B631D00054FC5 /* GenericDataSource.swift in Sources */,
+				F9CE7F23271B320300054FC5 /* GoogleService.swift in Sources */,
+				F9CE7F5D271B637C00054FC5 /* AddressesDataSource.swift in Sources */,
+				F9CE7F65271B643100054FC5 /* AddressesViewModel.swift in Sources */,
+				F9CE7FA3271CB27700054FC5 /* SearchCell.swift in Sources */,
+				F9CE7F34271B4F2F00054FC5 /* Router.swift in Sources */,
+				F9CE7F2C271B4EC800054FC5 /* NetworkLayer.swift in Sources */,
+				F9CE7F14271B2BAB00054FC5 /* DatabaseManager.swift in Sources */,
+				F9CE7F8D271C5F5900054FC5 /* SearchDataSource.swift in Sources */,
+				F9CE7FAD271CDD2200054FC5 /* ImageLoader.swift in Sources */,
+				F9CE7F57271B633800054FC5 /* DynamicValue.swift in Sources */,
 				F96E9AEA271B24100048E3CB /* AppDelegate.swift in Sources */,
+				F9CE7F98271C6BFA00054FC5 /* LocationType.swift in Sources */,
+				F9CE7FA8271CD75300054FC5 /* Photo.swift in Sources */,
+				F9CE7F46271B616A00054FC5 /* AddressesViewController.swift in Sources */,
+				F9CE7F39271B500500054FC5 /* Reachability.swift in Sources */,
 				F96E9AEC271B24100048E3CB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,12 +709,14 @@
 		};
 		F96E9B11271B24110048E3CB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17D4D50EA30852921F84A344 /* Pods-signos.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RB3D4C79WZ;
-				INFOPLIST_FILE = signos/Info.plist;
+				INFOPLIST_FILE = signos/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,12 +730,14 @@
 		};
 		F96E9B12271B24110048E3CB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5671EFF3295FAAF67FE74510 /* Pods-signos.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RB3D4C79WZ;
-				INFOPLIST_FILE = signos/Info.plist;
+				INFOPLIST_FILE = signos/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
