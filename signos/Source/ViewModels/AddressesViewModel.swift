@@ -31,6 +31,13 @@ struct AddressesViewModel {
         DatabaseManager.shared.delete(objects: [address])
     }
     
+    func pinAddress(place_id: String) {
+        guard let address = getAddress(place_id: place_id) else {
+            return
+        }
+        DatabaseManager.shared.update(address: address)
+    }
+    
     private func getAddress(place_id: String) -> Address? {
         guard let addresses = dataSource?.data.value else {
             return nil

@@ -24,6 +24,13 @@ class DatabaseManager {
         }
     }
     
+    func update(address: Address) {
+        try! realm.write {
+            address.isPinned = !address.isPinned
+            realm.add(address, update: .all)
+        }
+    }
+    
     // MARK: - Work With Addresses
     
     func add(addresses: [Address]) {
@@ -46,7 +53,7 @@ class DatabaseManager {
     }
     
     func fetchAddresses() -> [Address] {
-        return Array(realm.objects(Address.self))
+        return Array(realm.objects(Address.self).sorted(byKeyPath: "isPinned", ascending: false))
     }
     
     func isAddedAddress(_ address: Address) -> Bool {

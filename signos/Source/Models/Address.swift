@@ -15,11 +15,13 @@ struct Addresses: Codable {
 }
 
 final class Address: Object, Codable {
+    @objc dynamic var isPinned = false
     @objc dynamic var placeId = ""
     @objc dynamic var name = ""
     @objc dynamic var formattedAddress = ""
     var photos = List<Photo>()
     var types = List<String>()
+    
     //@objc dynamic var formatted_phone_number = "" // Google api returns error for this field
     
     override static func primaryKey() -> String? {

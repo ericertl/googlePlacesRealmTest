@@ -82,6 +82,17 @@ class AddressesViewController: UITableViewController {
         // Get Address Data
         viewModel.fetchAddresses()
     }
+    
+    override func tableView(_ tableView: UITableView, leadingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
+        let contextItem = UIContextualAction(style: .normal, title: "Pin to top") { [weak self] (contextualAction, view, boolValue) in
+            guard let self = self else { return }
+            let address = self.dataSource.getAddress(indexPath: indexPath)
+            self.viewModel.pinAddress(place_id: address.placeId)
+            self.startRefreshingAddresses()
+        }
+        let swipeActions = UISwipeActionsConfiguration(actions: [contextItem])
+        return swipeActions
+    }
 }
 
 // MARK: Search

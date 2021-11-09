@@ -10,6 +10,7 @@ import UIKit
 
 class AddressesDataSource: GenericDataSource<Address> {
     var onDeleteAddress: ((Address) -> Void)?
+    var onUpdateAddress: ((Address) -> Void)?
 }
 
 extension AddressesDataSource: UITableViewDataSource {
@@ -54,5 +55,9 @@ extension AddressesDataSource: UITableViewDataSource {
                 tableView.endUpdates()
             }
         }
+    }
+    
+    func getAddress(indexPath: IndexPath) -> Address {
+        return data.value[indexPath.row]
     }
 }

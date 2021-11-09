@@ -12,7 +12,7 @@ enum Router {
     case getAddresses(input: String)
     
     var apiKey: String {
-        return "" // YOUR_OWN_API_KEY
+        return "AIzaSyAviXvo7lgpPcOxt0FzteFNElO6BQ32OBw" // YOUR_OWN_API_KEY
     }
     
     var scheme: String {
